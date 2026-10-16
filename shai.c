@@ -80,7 +80,7 @@ void copy(int arr[],struct linkedlist* list1)
 }
 
 
-/*void insertrear(struct linkedlist* list1, int artwork_id, char artwork_name[100], char artist_name[100], int price)
+void insertrear(struct linkedlist* list1, int artwork_id, char artwork_name[100], char artist_name[100], int price)
 {
     struct node* node2 = createnode(202,"money heist","proff",4000000);
     if(list1->tail == NULL)
@@ -94,7 +94,7 @@ void copy(int arr[],struct linkedlist* list1)
         list1->tail->next = node2;
         list1->tail = node2;
     }
-};*/
+};
 
 
 struct linkedlist* createlist()
@@ -106,7 +106,7 @@ struct linkedlist* createlist()
     return newlist;
 };
 
-/*void array(struct linkedlist *list) {
+void array(struct linkedlist *list) {
 
     int array[] = {1,2,3,4,5};
     int *p = malloc(sizeof(int));
@@ -115,7 +115,7 @@ struct linkedlist* createlist()
         printf("%d",*p);
 
     }
-}*/
+}
 
 int main()
 {
